@@ -200,6 +200,7 @@ section h2::after {
     align-items: center;
     text-align: center;
     gap: 2rem;
+    
 }
 
 #experience-section h2 {
@@ -224,6 +225,15 @@ section h2::after {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 100%;
     text-align: left;
+    color: #fff;
+}
+
+#experience-section .experience-box img.experience-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover; 
+    margin-bottom: 1rem;
 }
 
 #experience-section .experience-box h3 {
