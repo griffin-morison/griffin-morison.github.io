@@ -1,9 +1,9 @@
 /* Base Styles */
 :root {
-    --text-color: #1a1c20;
+    --text-color: #1D428A;
     --link-color: #ffffff;
-    --background-color: #eeeff1;
-    font-size: 17px; /* Set the base font size */
+    --background-color: #ffc72c;
+    font-size: 18px; /* Set the base font size */
 }
 
 * {
@@ -18,19 +18,23 @@ html {
 }
 
 @font-face {
-    font-family: "Steph";
-    src: url("fonts/steph-font.ttf");
+    font-family: "Basketball";
+    src: url("fonts/Basketball.otf");
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "Steph";
-    src: url("fonts/steph-font-bold.ttf");
+    font-family: "Basketball";
+    src: url("fonts/Basketball.otf");
     font-weight: bold;
 }
 
 body {
-    font-family: 'Steph', sans-serif;
+    font-family: 'Basketball', sans-serif;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
 }
 
 a {
@@ -39,7 +43,7 @@ a {
 }
 
 nav {
-    background-color: #bfd6c4;
+    background-color: #7C878E;
     display: flex;
     justify-content: space-between;
     padding: 0 3.125rem;
@@ -49,25 +53,25 @@ nav {
     top: 0;
     width: 100%;
     z-index: 1000;
-    background-color: rgba(191, 214, 196, 0.9);
+    background-color: #1D428A;
     backdrop-filter: blur(5px);
 }
 
 nav .left a {
-    color: var(--text-color);
+    color: #fff;
     font-size: 1.5rem;
     font-weight: 600;
 }
 
 nav .right a {
-    color: var(--text-color);
+    color: #fff;
     font-size: 1rem;
     font-weight: 600;
     margin: 0 0.625rem;
 }
 
 nav .right a:hover {
-    color: var(--link-color);
+    color: var(--background-color);
     transition: color 0.3s ease-in-out;
 }
 
@@ -107,7 +111,7 @@ section h2::after {
     position: absolute;
     width: 100px;
     height: 4px;
-    background-color: #bfd6c4;
+    background-color: #1D428A;
     bottom: -10px;
     left: 50%;
     transform: translateX(-50%);
@@ -179,12 +183,12 @@ section h2::after {
 }
 
 #about-section .social-links a:hover i {
-    color: #a5d6b0;
+    color: #1D428A;
     transform: scale(1.2);
 }
 
 #about-section .social-links i {
-    color: #588061;
+    color: #1D428A;
     font-weight: 500;
 }
 
@@ -214,7 +218,7 @@ section h2::after {
 }
 
 #experience-section .experience-box {
-    background-color: #bfd6c4;
+    background-color: #1D428A;
     padding: 2rem;
     border-radius: 0.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -340,14 +344,14 @@ section h2::after {
 
 #skills-section i {
     font-size: 3rem;
-    color: #588061;
+    color: #1D428A;
     transition: transform 0.3s ease, color 0.3s ease;
     margin: 1rem 0; /* Add margin to ensure proper spacing */
 }
 
 #skills-section i:hover {
     transform: scale(1.2);
-    color: #a5d6b0;
+    color: #1D428A;
 }
 
 /* Leave a Message Section */
